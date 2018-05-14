@@ -23,8 +23,8 @@
       <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+            <state relative-caret-position="476">
+              <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -238,7 +238,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21822916" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+        <state relative-caret-position="476">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
         </state>
       </provider>
     </entry>
