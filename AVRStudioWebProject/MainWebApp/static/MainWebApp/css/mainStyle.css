@@ -1,6 +1,6 @@
 @font-face {
    font-family: sansationLight;
-   src: url("../font/sansation_light_macroman/Sansation-Light-webfont.woff");
+   src: url("../fonts/sansation_light_macroman/Sansation-Light-webfont.woff");
 }
 
 
@@ -11,7 +11,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2e3e50;
+    background-color: #252831;
     overflow-x: hidden;
 }
 
@@ -28,37 +28,73 @@
 .sideBarBody a{
     text-decoration: none;
     font-size: 18px;
-    color: #f5f5f5;
+    color: #C8CDCE;
     display: block;
     font-family: sansationLight;
     text-align: center;
      border-style: solid;
      border-width: 1px 0px 0px 0px;
-    border-color: #95A4A3;
+    border-color: #C8CDCE;
     height:60px;
     line-height: 60px;
 }
 
+.sideBarBody a:hover {
+    color: #1AAAE0;
+}
+
+
+/* Style for footer social buttons */
 .sideBarFooter{
     text-align: center;
      border-style: solid;
      border-width: 1px 0px 0px 0px;
-    border-color: #95A4A3;
+    border-color: #C8CDCE;
 }
 
-.sideBarBody a:hover {
-    color: #008fbf;
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 100px 5px;
+  border-radius: 50%;
+  background: #525868;
+  color: #252831;
+
 }
 
+.fa:hover {
+    opacity: 0.7;
+}
 
 
 .mainContent {
     margin-left: 320px; /* Same as the width of the sidenav */
+    margin-right: 0px;
     font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    padding: 0px 0px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+#indexSection{
+    background:url("../images/bg.jpg");
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+/*
+#indexSection{
+    background:url("../images/bg.jpg");
 }
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-}
+}*/
