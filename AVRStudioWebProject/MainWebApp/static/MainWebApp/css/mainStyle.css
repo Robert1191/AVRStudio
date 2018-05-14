@@ -1,0 +1,64 @@
+@font-face {
+   font-family: sansationLight;
+   src: url("../font/sansation_light_macroman/Sansation-Light-webfont.woff");
+}
+
+
+.mainSideBar{
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2e3e50;
+    overflow-x: hidden;
+}
+
+.sideBarHeader{
+    padding: 20% 20% 20% 20%;
+    display: block;
+    text-align: center;
+}
+
+.sideBarHeader a img{
+    width: 100%;
+}
+
+.sideBarBody a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f5f5f5;
+    display: block;
+    font-family: sansationLight;
+    text-align: center;
+     border-style: solid;
+     border-width: 1px 0px 0px 0px;
+    border-color: #95A4A3;
+    height:60px;
+    line-height: 60px;
+}
+
+.sideBarFooter{
+    text-align: center;
+     border-style: solid;
+     border-width: 1px 0px 0px 0px;
+    border-color: #95A4A3;
+}
+
+.sideBarBody a:hover {
+    color: #008fbf;
+}
+
+
+
+.mainContent {
+    margin-left: 320px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
