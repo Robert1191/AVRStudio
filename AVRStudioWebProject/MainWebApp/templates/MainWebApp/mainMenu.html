@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+<h1 id="hiddenCurrentUrl" style="visibility: hidden"> {{ request.path }} </h1>
 
 <div class="mainSideBar">
    <div class="sideBarHeader">
@@ -17,16 +17,16 @@
 
     <div class="sideBarBody">
         <a href="{% url 'about' %}">WHO WE ARE</a>
-        <a href="{% url 'about' %}">WHAT WE DO</a>
-        <a href="{% url 'about' %}">GET IN TOUCH</a>
+        <a href="{% url 'project' %}">WHAT WE DO</a>
+        <a href="{% url 'contact' %}">GET IN TOUCH</a>
 
    </div>
 
     <div class="sideBarFooter">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-github"></a>
+        <a href="https://www.facebook.com/robertle11" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/robertle11/" class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/robertle1991/" class="fa fa-linkedin"></a>
+        <a href="https://www.github.com/Robert1191" class="fa fa-github"></a>
    </div>
 
 </div>
@@ -36,5 +36,8 @@
     {% endblock %}
 </div>
 
+<script language="JavaScript" type="text/javascript" src="{% static 'MainWebApp/jquery/jquery.min.js' %}"></script>
+<script language="JavaScript" type="text/javascript" src="{% static 'MainWebApp/jquery/mainFunc.js' %}"></script>
 </body>
 </html>
+

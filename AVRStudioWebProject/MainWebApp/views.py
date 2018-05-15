@@ -9,3 +9,9 @@ def index(request):
 
 def about(request):
     return render(request,"MainWebApp/about.html")
+
+def contact(request):
+    return render(request,"MainWebApp/contact.html")
+
+def project(request):
+    return render(request,"MainWebApp/project.html")
