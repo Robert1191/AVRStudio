@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
   /* Set selected side bar button*/
             var i;
@@ -15,9 +16,6 @@ $(document).ready(function(){
 
     /* Index page function*/
     function index(e){
-
-        $('.title').css('background','url(../images/titleBackground.jpg) repeat;');
-
         var mouseX, mouseY;
        $(document).mousemove(function(e) {
             mouseX = e.pageX;

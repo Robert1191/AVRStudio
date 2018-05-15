@@ -12,82 +12,96 @@
 
 .mainSideBar{
     height: 100%;
-    width: 320px;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #252831;
+    background-color: #222923;
     overflow-x: hidden;
 }
 
 .sideBarHeader{
-    padding: 20% 20% 20% 20%;
-    display: block;
     text-align: center;
-    height:200px;
+    height:400px;
+    width:400px;
 }
 
 .sideBarHeader a img{
-    width: 100%;
+    width: 260px;
+    height: 260px;
+    margin-top: 60px;
 }
 
 .sideBarBody a, .selectedSideBarButton{
     text-decoration: none;
     font-size: 18px;
-    color: #C8CDCE;
+    color: #747866;
     display: block;
     font-family: sansationLight;
     text-align: center;
-     border-style: solid;
+    /* border-style: solid;
      border-width: 1px 0px 0px 0px;
-    border-color: #C8CDCE;
+    border-color: #C8CDCE;*/
     height:60px;
     line-height: 60px;
 }
 
 .selectedSideBarButton{
-    color: #252831 !important;
-    border-color: #252831 !important;
-    background:#1AAAE0;
+    color: #FFFFF1 !important;
+    background:#1C221D;
     font-family: sansationBold !important;
 }
 
 .sideBarBody a:hover {
-    color: #1AAAE0;
+    color: #FFFFF1;
+    font-family: sansationBold !important;
 }
 
+@media screen and (max-width: 1025px) {
+  .sideBarBody {display: none;}
+  .sideBarFooter {display: none;}
+  .mainSideBar{
+      height: 320px;
+      width: 100%;
+  }
+
+  .mainContent {
+    margin-left: 0px !important;
+    margin-top: 320px;
+
+  }
+  }
 
 /* Style for footer social buttons */
 .sideBarFooter{
     text-align: center;
-     border-style: solid;
-     border-width: 1px 0px 0px 0px;
-    border-color: #C8CDCE;
+    font-size : 25px;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
 }
 
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 16px;
-  text-align: center;
-  text-decoration: none;
-  margin: 100px 5px;
-  border-radius: 50%;
-  background: #525868;
-  color: #252831;
 
+.fa {
+    padding: 8px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    /*margin: 100px 0px;*/
+    background: #222923;
+    color: #41484C;
+    bottom : 0px;
 }
 
 .fa:hover {
     opacity: 0.7;
+    color: #FFFFF1;
 }
 
-.mainContent, .backgroundImage {
 
-}
 .mainContent {
-    margin-left: 320px;
+    margin-left: 400px;
     padding: 0px 10px;
     z-index: 1;
     top: 0;
@@ -111,24 +125,23 @@
 
 .pageContainer{
     position:relative;
-    -webkit-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
+    /*-webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);*/
     transform: translate(-50%,-50%);
     left:50%;
     top:50%;
 }
 .title{
-  font-weight: 700;
-  color: transparent;
-  font-size:100px;
-  font-family: sansationLight;
-/*  background: url("../images/titleBackground.jpg") repeat;*/
-  background-position: 40% 50%;
-  -webkit-background-clip: text;
-  position:relative;
-  text-align:center;
-  line-height:90px;
-  letter-spacing: -8px;
+  font-weight: 700 !important;
+  color: transparent !important;
+  font-size:100px !important;
+  font-family: sansationLight !important;
+ /* background-position: 40% 50% ;*/
+  -webkit-background-clip: text !important;
+  position:relative !important;
+  text-align:center !important;
+  line-height:120px !important;
+  letter-spacing: -8px !important;
 }
 .subtitle{
   display: block;
@@ -137,7 +150,7 @@
   text-transform: uppercase;
   font-size:25px;
   padding-top:20px;
-  color:#C8CDCE;
+  color:#FFFFF1;
 }
 
 

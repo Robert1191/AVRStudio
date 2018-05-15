@@ -13,5 +13,8 @@ def about(request):
 def contact(request):
     return render(request,"MainWebApp/contact.html")
 
+def details(request):
+    return render(request,"MainWebApp/details.html")
+
 def project(request):
     return render(request,"MainWebApp/project.html")
