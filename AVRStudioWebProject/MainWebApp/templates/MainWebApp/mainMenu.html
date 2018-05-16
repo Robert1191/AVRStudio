@@ -4,6 +4,7 @@
      {% load staticfiles %}
     <link rel="shortcut icon" href="{% static 'MainWebApp/images/Icon.gif' %}" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'MainWebApp/css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'MainWebApp/css/mainStyle.css' %}">
     <link rel="stylesheet" href="{% static 'MainWebApp/css/font-awesome.min.css' %}">
 </head>
@@ -36,8 +37,15 @@
 </div>
 
 <div class="mainContent">
+    <div id="hiddenMenuButton" class="  btn btn-default btn-lg">
+      <span >&#9776;</span>
+    </div>
+    <!--<a class="menuButton"  onclick="openNav()"><span>&#9776;</span></a>-->
   {% block content %}
     {% endblock %}
+    <div id="hiddenLayer" >
+
+    </div>
 </div>
 
 <script language="JavaScript" type="text/javascript" src="{% static 'MainWebApp/jquery/jquery.min.js' %}"></script>
