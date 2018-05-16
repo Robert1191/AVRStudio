@@ -13,9 +13,16 @@ $(document).ready(function(){
         index();
     }
 
+    function changePageTitle(name){
+        document.title = name;
+    }
 
     /* Index page function*/
     function index(e){
+
+        /* Change page title*/
+        changePageTitle("Home - AVR Studio")
+
         var mouseX, mouseY;
        $(document).mousemove(function(e) {
             mouseX = e.pageX;
