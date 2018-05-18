@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-
+    var screenWidth = $( document ).width();
     var isHiddenMenuOpen = false;
     $('#hiddenMenuButton').on( "click", function(e) {
         if(!isHiddenMenuOpen){
@@ -15,25 +15,7 @@ $(document).ready(function(){
             closeHiddenMenu();
     });
 
-    $('.mainSideBar').on( "click", function(e) {
-         if(isHiddenMenuOpen){
-            closeHiddenMenu();
-        }
-    });
-
-    $('.sideBarHeader').on( "click", function(e) {
-         if(isHiddenMenuOpen){
-            closeHiddenMenu();
-        }
-    });
-
-    $('.sideBarBody').on( "click", function(e) {
-         if(isHiddenMenuOpen){
-            closeHiddenMenu();
-        }
-    });
-
-    $('.sideBarFooter').on( "click", function(e) {
+    $('#closeMenuButton').on( "click", function(e) {
          if(isHiddenMenuOpen){
             closeHiddenMenu();
         }
@@ -41,15 +23,25 @@ $(document).ready(function(){
 
     function openHiddenMenu(){
         $('#hiddenLayer').css("visibility", "visible");
-        $('.mainContent').css("margin-left", 400);
         $('.mainSideBar').css("margin-left", 0);
+        if(screenWidth > 450){
+             screenWidth = 400;
+        }
+        $('.mainContent').css("margin-left", screenWidth);
+        $('.sideBarHeader').css("height", screenWidth);
+        $('.sideBarHeader').css("width", screenWidth);
         isHiddenMenuOpen = true;
     }
 
     function closeHiddenMenu(){
         $('#hiddenLayer').css("visibility", "hidden");
         $('.mainContent').css("margin-left", 0);
-        $('.mainSideBar').css("margin-left", -400);
+        if(screenWidth > 450){
+             screenWidth = 400;
+        }
+        $('.mainSideBar').css("margin-left", -screenWidth);
+        $('.sideBarHeader').css("height", screenWidth);
+        $('.sideBarHeader').css("width", screenWidth);
         isHiddenMenuOpen = false;
     }
   /* Set selected side bar button*/
@@ -75,15 +67,6 @@ $(document).ready(function(){
         /* Change page title*/
         changePageTitle("Home - AVR Studio")
 
-        var mouseX, mouseY;
-       $(document).mousemove(function(e) {
-            mouseX = e.pageX;
-            mouseY = e.pageY;
-            traX = ((4 * mouseX) / 600) + 40;
-            traY = ((4 * mouseY) / 600) + 50;
-
-            $(".title").css({"background-position": traX + "%" + traY + "%"});
-        });
     }
 });
 
