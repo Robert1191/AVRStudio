@@ -66,7 +66,7 @@ $(document).ready(function(){
 
         /* Change page title*/
         changePageTitle("Home - AVR Studio")
-
+        $('#contentTitleSection').css("background-image", "url('../static/MainWebApp/images/bg.jpg')");
     }
 });
 

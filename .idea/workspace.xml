@@ -14,17 +14,8 @@
       <file leaf-file-name="mainMenu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/mainMenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainFunc.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -32,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -41,8 +32,26 @@
       <file leaf-file-name="mainStyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+            <state relative-caret-position="500">
+              <caret line="178" column="45" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainFunc.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -63,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AVRStudioWebProject/AVRStudioWebProject/settings.py" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views/index.html" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/header.html" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/About.html" />
@@ -75,13 +83,14 @@
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/urls.py" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views.py" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/mainMenu.html" />
-        <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css" />
+        <option value="$PROJECT_DIR$/AVRStudioWebProject/AVRStudioWebProject/settings.py" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/index.html" />
+        <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css" />
         <option value="$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/jquery/mainFunc.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="395" />
     <option name="y" value="46" />
     <option name="width" value="1684" />
@@ -92,7 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,12 +111,6 @@
             <path>
               <item name="AVRStudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="AVRStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="AVRStudioWebProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AVRStudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AVRStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="AVRStudioWebProject" type="462c0819:PsiDirectoryNode" />
               <item name="AVRStudioWebProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -131,18 +133,11 @@
               <item name="MainWebApp" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AVRStudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AVRStudio" type="462c0819:PsiDirectoryNode" />
-              <item name="AVRStudioWebProject" type="462c0819:PsiDirectoryNode" />
-              <item name="MainWebApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="MainWebApp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,14 +174,14 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21770833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35175344" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33049947" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,13 +455,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views/index.html" />
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/header.html" />
-    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/AVRStudioWebProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1017">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/AVRStudioWebProject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -502,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -519,31 +500,45 @@
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/project.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/mainMenu.html">
+    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/AVRStudioWebProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css">
+    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/mainMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
+        <state relative-caret-position="51">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/templates/MainWebApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/css/mainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="178" column="45" lean-forward="true" selection-start-line="178" selection-start-column="29" selection-end-line="178" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AVRStudioWebProject/MainWebApp/static/MainWebApp/jquery/mainFunc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="435">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
         </state>
       </provider>
     </entry>
