@@ -16,5 +16,5 @@ def contact(request):
 def details(request):
     return render(request,"MainWebApp/details.html")
 
-def project(request):
-    return render(request,"MainWebApp/project.html")
+def projects(request):
+    return render(request,"MainWebApp/projects.html")

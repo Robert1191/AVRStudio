@@ -1,5 +1,7 @@
 
 $(document).ready(function(){
+    var staticLink = "../static/MainWebApp/";
+
 
     var screenWidth = $( document ).width();
     var isHiddenMenuOpen = false;
@@ -53,8 +55,26 @@ $(document).ready(function(){
     }
 
    /* Switch page function*/
-    if  ($.trim($("#hiddenCurrentUrl").text()) == "/"){
-        index();
+    switch ($.trim($("#hiddenCurrentUrl").text())) {
+        case '/':
+          index();
+          break;
+
+        case '/about/':
+          about();
+          break;
+
+        case '/contact/':
+          contact();
+          break;
+
+        case '/details/':
+          details();
+          break;
+
+        case '/projects/':
+          projects();
+          break;
     }
 
     function changePageTitle(name){
@@ -64,9 +84,51 @@ $(document).ready(function(){
     /* Index page function*/
     function index(e){
 
-        /* Change page title*/
+        /* Change page titles and background*/
         changePageTitle("Home - AVR Studio")
-        $('#contentTitleSection').css("background-image", "url('../static/MainWebApp/images/bg.jpg')");
+        $('#contentTitleSection').css("background-image", "url('" + staticLink + "images/index_bg.jpg')");
+        $('#contentTitle').text("Future Proof Designed");
+        $('#contentSubtitle').text(" Powered by Neuroscience ");
+    }
+
+    /* About page function*/
+    function about(e){
+
+        /* Change page titles and background*/
+        changePageTitle("About - AVR Studio")
+        $('#contentTitleSection').css("background-image", "url('" + staticLink + "images/about_bg.jpg')");
+        $('#contentTitle').text("Future Proof Designed");
+        $('#contentSubtitle').text(" Powered by Neuroscience ");
+    }
+
+    /* Contact page function*/
+    function contact(e){
+
+        /* Change page titles and background*/
+        changePageTitle("Contact - AVR Studio")
+        $('#contentTitleSection').css("background-image", "url('" + staticLink + "images/contact_bg.jpg')");
+        $('#contentTitle').text("Future Proof Designed");
+        $('#contentSubtitle').text(" Powered by Neuroscience ");
+    }
+
+    /* Details page function*/
+    function details(e){
+
+        /* Change page titles and background*/
+        changePageTitle("Details - AVR Studio")
+        $('#contentTitleSection').css("background-image", "url('" + staticLink + "images/details_bg.jpg')");
+        $('#contentTitle').text("Future Proof Designed");
+        $('#contentSubtitle').text(" Powered by Neuroscience ");
+    }
+
+    /* Projects page function*/
+    function projects(e){
+
+        /* Change page titles and background*/
+        changePageTitle("Projects - AVR Studio")
+        $('#contentTitleSection').css("background-image", "url('" + staticLink + "images/projects_bg.jpg')");
+        $('#contentTitle').text("Future Proof Designed");
+        $('#contentSubtitle').text(" Powered by Neuroscience ");
     }
 });
 
